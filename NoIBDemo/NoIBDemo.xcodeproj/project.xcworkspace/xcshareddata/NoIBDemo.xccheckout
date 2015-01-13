@@ -10,31 +10,31 @@
 	<string>NoIBDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>2586C88BEA8D9A3DFA30CF3EC02BC5BD7E5CA0E7</key>
-		<string>https://github.com/codefellows/sea-b29-iOS.git</string>
+		<key>ED169FDD2321ACF65390CA8894D8884EB29A4306</key>
+		<string>https://github.com/sherwoodgithub/PhotoPhilter.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Sample Projects/Week 2/NoIBDemo/NoIBDemo.xcodeproj</string>
+	<string>NoIBDemo/NoIBDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>2586C88BEA8D9A3DFA30CF3EC02BC5BD7E5CA0E7</key>
-		<string>../../../../..</string>
+		<key>ED169FDD2321ACF65390CA8894D8884EB29A4306</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/codefellows/sea-b29-iOS.git</string>
+	<string>https://github.com/sherwoodgithub/PhotoPhilter.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>2586C88BEA8D9A3DFA30CF3EC02BC5BD7E5CA0E7</string>
+	<string>ED169FDD2321ACF65390CA8894D8884EB29A4306</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>2586C88BEA8D9A3DFA30CF3EC02BC5BD7E5CA0E7</string>
+			<string>ED169FDD2321ACF65390CA8894D8884EB29A4306</string>
 			<key>IDESourceControlWCCName</key>
-			<string>sea-b29-iOS</string>
+			<string>HW2%20PhotoPhilter</string>
 		</dict>
 	</array>
 </dict>

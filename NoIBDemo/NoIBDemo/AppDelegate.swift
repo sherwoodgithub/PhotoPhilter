@@ -16,9 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     // Override point for customization after application launch.
+    //                            class   method call   method property
     self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
     self.window?.makeKeyAndVisible()
     let rootVC = ViewController()
+    // arrow on storyboard  v  property of window, which is a UIWindow. 
     self.window?.rootViewController = rootVC
     
     return true
