@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>781D0456-EC1F-4BF3-99D7-A5246D640200</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NoIBDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2586C88BEA8D9A3DFA30CF3EC02BC5BD7E5CA0E7</key>
+		<string>https://github.com/codefellows/sea-b29-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Sample Projects/Week 2/NoIBDemo/NoIBDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2586C88BEA8D9A3DFA30CF3EC02BC5BD7E5CA0E7</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/codefellows/sea-b29-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2586C88BEA8D9A3DFA30CF3EC02BC5BD7E5CA0E7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2586C88BEA8D9A3DFA30CF3EC02BC5BD7E5CA0E7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sea-b29-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
