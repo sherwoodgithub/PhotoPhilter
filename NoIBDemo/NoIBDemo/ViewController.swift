@@ -16,6 +16,7 @@ class ViewController : UIViewController {
     let rootView = UIView(frame: UIScreen.mainScreen().bounds)
     let redView = UIView()
     let blueButton = UIButton()
+    let pinkButton = UIButton()
     
     rootView.backgroundColor = UIColor.whiteColor()
     
@@ -35,7 +36,13 @@ class ViewController : UIViewController {
     blueButton.setTitle("Save", forState: .Normal)
     blueButton.setTranslatesAutoresizingMaskIntoConstraints(false)
     
-    let views = ["redView" : redView, "blueButton" : blueButton]
+    pinkButton.backgroundColor = UIColor.purpleColor()
+    pinkButton.setTitle("Hello", forState: .Normal)
+    pinkButton.setTranslatesAutoresizingMaskIntoConstraints(false)
+    rootView.addSubview(pinkButton)
+    
+    
+    let views = ["redView" : redView, "blueButton" : blueButton, "pinkButton" : pinkButton]
 
     //                                                              constraints vertical height to 20 pts
     let redViewConstraintHeight = NSLayoutConstraint.constraintsWithVisualFormat("V:[redView(20)]", options: nil, metrics: nil, views: views)
@@ -48,6 +55,12 @@ class ViewController : UIViewController {
     
     let blueButtonConstraintLocation = NSLayoutConstraint.constraintsWithVisualFormat("V:[redView]-20-[blueButton]", options: NSLayoutFormatOptions.AlignAllLeading, metrics: nil, views: views)
     rootView.addConstraints(blueButtonConstraintLocation)
+    
+    
+    let pinkButtonConstraintVertical = NSLayoutConstraint.constraintsWithVisualFormat("V:[redView]-50-[pinkButton]", options: nil, metrics: nil, views: views)
+    rootView.addConstraints(pinkButtonConstraintVertical)
+    let pinkButtonConstraintHorizontal = NSLayoutConstraint(item: pinkButton, attribute: NSLayoutAttribute.CenterX, relatedBy: NSLayoutRelation.Equal, toItem: rootView, attribute: .CenterX, multiplier: 1.0, constant: 0.0)
+    rootView.addConstraint(pinkButtonConstraintHorizontal)
     
     
     
